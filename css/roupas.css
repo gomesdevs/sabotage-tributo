@@ -1,0 +1,144 @@
+.outfits-section {
+  padding: 4rem 0;
+}
+
+.outfit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.outfit-card {
+  background-color: var(--color-tertiary);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-default);
+}
+
+.outfit-image-container {
+  height: 250px;
+  overflow: hidden;
+}
+
+.outfit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.outfit-content {
+  padding: 1.5rem;
+}
+
+.outfit-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.outfit-description {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-muted);
+}
+
+.outfit-details h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-secondary);
+}
+
+.outfit-details ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+.outfit-details li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-section {
+  padding: 4rem 0;
+}
+
+.contact-content {
+  background-color: var(--color-primary);
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-default);
+}
+
+.contact-text {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius);
+  background-color: var(--color-tertiary);
+  color: #000;
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-secondary);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: inline;
+  margin-left: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+}

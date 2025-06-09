@@ -1,0 +1,28 @@
+
+.hero {
+  background-color: var(--color-background);
+}
+
+.quote-section {
+  position: relative;
+  overflow: hidden;
+}
+.hero-content container{
+  position : center;
+}
+
+
+.quote-section::before {
+  top: -150px;
+  left: -150px;
+}
+
+.quote-section::after {
+  bottom: -150px;
+  right: -150px;
+}
+
+.quote-section .container {
+  position: relative;
+  z-index: 1;
+}
